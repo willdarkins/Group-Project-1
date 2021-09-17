@@ -7,18 +7,19 @@
     <title>SHOULD I STAY OR SHOULD I GO NOW</title>
     <link rel="stylesheet" href="../Kimberly Branch/assets/css/main.css">
     <link rel="stylesheet" href="../Kimberly Branch/assets/css/main.css">
- </head>
-<body>
+    <import Header from href="/Group-Project-1/pure/site/src/pages/components/Header">
+    <import SectionHeader from href="/Group-Project-1/pure/site/src/pages/components/SectionHeader">
+</head>
+<body class="pure-u">
 
      <video src="../Kimberly Branch/assets/images/videoblocks-commercial-airplane-taking-off-into-sunset-viewed-underneath_hk07wpvpd__0f1415694169f6f70c27d40d8553b959__P360.mp4" type="video/mp4" autoplay loop playsinline muted>
         </video>
     
-        
     <header class="viewport-header">      
     <div class="header" id="siteTitle">
         <h1>
-            <span>Welcome To<br></span>
-            <a href="/">Should I Stay Or Should I Go</a>
+            Welcome To<br>
+            Should I Stay Or Should I Go
             </h1>
         <ul class="pure-menu-list">
             <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
@@ -33,34 +34,71 @@
         <h2 class="content-head is-center">Tells Us Where You'd Like to Go in the Next 90 days!</h2>
         <div class="pure-g">
             <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-                <form class="pure-form pure-form-stacked">
+                <form class="pure-form">
                     <fieldset>
-                        <label for="city">Favorite City to Visit?</label>
-                        <input id="city" type="text" placeholder="city" required>
-                        <button id="modal-btn">click to enter county name</button>
-                    <div class="modal">
-                      <div class="modal-content">
-                    <span class="close-btn">&times;</span>
-                      </div>
-                    </div>
-
-                        <label for="state">State</label>
-                        <input id="state" type="text" placeholder="State" required>
-                        <button id="modal-btn"> click me, I make a modal</button>
-                    <div class="modal">
-                      <div class="modal-content">
-                    <span class="close-btn">&times;</span>
-                      </div>
-                    </div>
-
-                        <label for="email">Your Email</label>
-                        <input id="email" type="email" placeholder="Your Email">
-
-                        <button type="submit" class="pure-button">Submit</button>
+                        <legend>An inline form. Check for alignment and input/select sizing.</legend>
+            
+                        <input type="text" placeholder="city input">
+                       
+                        <select name="fooselect">
+                            <select>
+                                <option value="AL">AL</option>
+                                <option value="AK">AK</option>
+                                <option value="AR">AR</option>	
+                                <option value="AZ">AZ</option>
+                                <option value="CA">CA</option>
+                                <option value="CO">CO</option>
+                                <option value="CT">CT</option>
+                                <option value="DC">DC</option>
+                                <option value="DE">DE</option>
+                                <option value="FL">FL</option>
+                                <option value="GA">GA</option>
+                                <option value="HI">HI</option>
+                                <option value="IA">IA</option>	
+                                <option value="ID">ID</option>
+                                <option value="IL">IL</option>
+                                <option value="IN">IN</option>
+                                <option value="KS">KS</option>
+                                <option value="KY">KY</option>
+                                <option value="LA">LA</option>
+                                <option value="MA">MA</option>
+                                <option value="MD">MD</option>
+                                <option value="ME">ME</option>
+                                <option value="MI">MI</option>
+                                <option value="MN">MN</option>
+                                <option value="MO">MO</option>	
+                                <option value="MS">MS</option>
+                                <option value="MT">MT</option>
+                                <option value="NC">NC</option>	
+                                <option value="NE">NE</option>
+                                <option value="NH">NH</option>
+                                <option value="NJ">NJ</option>
+                                <option value="NM">NM</option>			
+                                <option value="NV">NV</option>
+                                <option value="NY">NY</option>
+                                <option value="ND">ND</option>
+                                <option value="OH">OH</option>
+                                <option value="OK">OK</option>
+                                <option value="OR">OR</option>
+                                <option value="PA">PA</option>
+                                <option value="RI">RI</option>
+                                <option value="SC">SC</option>
+                                <option value="SD">SD</option>
+                                <option value="TN">TN</option>
+                                <option value="TX">TX</option>
+                                <option value="UT">UT</option>
+                                <option value="VT">VT</option>
+                                <option value="VA">VA</option>
+                                <option value="WA">WA</option>
+                                <option value="WI">WI</option>	
+                                <option value="WV">WV</option>
+                                <option value="WY">WY</option>
+                            </select>            
+            
+                        <button type="submit" class="pure-button">Sign in</button>
                     </fieldset>
                 </form>
-            </div>
-
+                </div>
             <div>
                 <a href="/Kimberly Branch/event-covid.html">Find Out What's Happening in<placeholder id=" county " + placeholder id="state".>
                        <input id="countyInput" type="text" />
