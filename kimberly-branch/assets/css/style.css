@@ -58,5 +58,7 @@ body {
 
 form {
     background-color: tomato;
+    margin: 0 auto;
+    text-align: center;
 }
 
