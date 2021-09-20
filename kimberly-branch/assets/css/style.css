@@ -65,14 +65,15 @@ body {
     text-align: center;
 }
 
-.get-started-button {
-    display: inline;
-
-}
 
 .fieldset {
     display: inline-block;
     text-align: center;
+}
+
+#submit {
+    background-color: olive;
+    color: yellow;
 }
 
 form {
@@ -88,6 +89,12 @@ form {
     text-align: center;
 }
 
+.results-button {
+    font-size: large;
+    background-color: tomato;
+    color: goldenrod;
+}
+
 .footer {
     background-color: brown;
     color: yellow;
@@ -100,6 +107,10 @@ form {
 .l-box {
     padding-left: 15%;
     padding-right: 15%;
-    text-align: center;
+    text-align: left;
+}
+
+.m-box{ 
+    text-align: right;
 }
 
