@@ -10,12 +10,10 @@
         } 
     })
 
-// for (var i = 0; i < data.events.length; i++) {
-//     //Take value input from html and compare it to for loop and find which one has 'this' location, and that's the one we need
-// }
-
-
     var stateVenueResults = function (data) {
-        var exampleText = data.events[0].venue.state;
-        console.log(exampleText);
+        var exampleText = data.events;
+        for (var i= 0; i < exampleText.length ; i++) {
+            var stateInput = data.events[i].venue.state;
+            console.log(stateInput);
+        }
     }
