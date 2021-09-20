@@ -42,8 +42,32 @@ body {
 }
 
 .viewpoint-header {
+    display: block;
     position: relative;
+    background-color: orange;
     color: brown;
+}
+
+.pure-menu-horizontal {
+    background-color: orangered;
+    color: yellow;
+    position: fixed;
+    bottom: 0;
+    height: 15%;
+    width: 100%;
+}
+
+.splash-head {
+    text-align: center;
+}
+
+.splash-subhead {
+    text-align: center;
+}
+
+.get-started-button {
+    display: inline;
+
 }
 
 .fieldset {
