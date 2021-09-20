@@ -33,6 +33,11 @@ body {
     text-align: center; 
 }
 
+.splash-head {
+    font-size: 2.5em;
+    color: darkolivegreen;
+}
+
 #myVideo { 
     position: fixed;
     right: 0;
@@ -65,19 +70,30 @@ body {
     text-align: center;
 }
 
+.pure-form {
+    border-radius: 2px;
+    border: solid;
+    border-color: brown;
+}
 
 .fieldset {
     display: inline-block;
-    text-align: center;
+    text-align: left;
+ 
+}
+
+.pure-button-primary {
+    border-radius: 2px;
 }
 
 #submit {
     background-color: olive;
     color: yellow;
+    margin-left: 10em;
 }
 
 form {
-    width: 60%;
+    width: 40%;
     height: 50%;
     margin: auto;
     position: absolute;
@@ -85,32 +101,40 @@ form {
     left: 0;
     bottom: 0;
     right: 0;
-    text-align: center;
-    text-align: center;
-}
-
-.results-button {
-    font-size: large;
-    background-color: tomato;
-    color: goldenrod;
+    text-align: left;
+    line-height: 1.7;
+    padding: .03em .05em .02em .05em;
 }
 
 .footer {
     background-color: brown;
-    color: yellow;
-    position: fixed;
+    position: fixed; 
     bottom: 0;
-    height: 10%;
+    height: 15%;
     width: 100%;
+    margin-bottom: 0;
 }
 
-.l-box {
-    padding-left: 15%;
-    padding-right: 15%;
+.footer-text {
+    color: yellow;
     text-align: left;
+    padding-left: 3%;
+    padding-right: 30%;
 }
 
-.m-box{ 
-    text-align: right;
+.results-button {
+    display: inline-block;
 }
 
+#results {
+    font-size: 100%;
+    position: fixed; 
+    bottom: 3%;
+    margin-left: 80%;
+    line-height: normal;
+    padding: 10px 65px;
+    background-color: tomato;
+    color: rgb(48, 58, 22);
+    font-size: large;
+    margin-top: 25%;
+}
