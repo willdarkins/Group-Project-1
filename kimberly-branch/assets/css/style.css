@@ -71,7 +71,7 @@ body {
 }
 
 .pure-form {
-    border-radius: 2px;
+    border-radius: 10px;
     border: solid;
     border-color: brown;
 }

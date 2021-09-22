@@ -1,43 +1,87 @@
-/* SECONDARY PAGE STYLES */
-.hero {
-  background-position: bottom;
-  height: auto;
-  text-align: center;
-  margin-bottom: 40px;
+/* element.style {
+
+} */
+
+* {
+  box-sizing: border-box;
 }
 
-.page-title {
-  padding: 0 80px 15px 80px;
-  font-size: 42px;
-  font-weight: 400;
-  font-style: italic;
-  color: #fce138;
-  display: inline-block;
-  border-bottom: 4px solid #fce138;
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+} 
+
+body {
+  line-height: 1.7em;
+  color: brown;
+}
+.splash-container {
+  z-index: -100;
+  overflow: hidden;
+  width: 100%;
+  height: 88%;
+  top:  0;
+  left: 0;
+  position: fixed !important;
 }
 
-.secondary-content {
+.splash {
   width: 80%;
-  margin: 0 auto;
-  color: #024e76;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  text-align: center; 
 }
 
-.secondary-content h3 {
-  font-size: 25px;
-  margin: 20px 0;
+.splash-head {
+  font-size: 2.5em;
+  color: darkolivegreen;
 }
 
-.secondary-content p {
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 20px 0;
+#myVideo { 
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
-.secondary-content ul {
-  margin: 15px 20px;
+.viewpoint-header {
+  display: block;
+  position: relative;
+  background-color: orange;
+  color: brown;
 }
 
-.secondary-content li {
-  color: #39a6b2;
-  margin: 10px 0;
+.pure-menu-horizontal {
+  background-color: orangered;
+  color: yellow;
+  position: fixed;
+  bottom: 0;
+  height: 15%;
+  width: 100%;
 }
+
+.splash-head {
+  text-align: center;
+}
+
+.splash-subhead {
+  text-align: center;
+}
+
+.grids-example {
+  border-top: 0;
+  padding-top: 20%;
+  background: rgb(250, 250, 250);
+  margin: auto;            
+  font-family: Consolas, 'Liberation Mono', Courier, monospace;
+				
+}	
+
+.graybox {
+  background: rgb(240, 240, 240);
+  border: 1px solid #ddd;			
+}	
+
+
