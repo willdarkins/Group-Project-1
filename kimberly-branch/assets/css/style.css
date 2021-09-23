@@ -117,25 +117,6 @@ form {
     padding: .10em .05em .02em .05em;
 }
 
-.label {
-    width: 60;
-}
-
-.aligned-multi-state {
-    margin: auto;
-    position: left;
-}
-
-#aligned-multi-state {
-   position: left; 
-}
-
-.pure-button {
-    border-radius: 2px;
-    background: rgb(223, 117, 20);
-    margin:auto;
-}
-
 .footer {
     background-color: brown;
     position: fixed; 
