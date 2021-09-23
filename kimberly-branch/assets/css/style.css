@@ -67,6 +67,7 @@ body {
 }
 
 .splash-subhead {
+    padding-top: 2%;
     text-align: center;
 }
 
@@ -86,15 +87,19 @@ label {
     width: 200px;
     margin-top: 10px;
     margin-left: 10px;
-    text-align: right;
+    text-align: center;
     margin-right:15px;
     float: left;
+    padding-right: 1em;
+    padding-left: 1em;
 }
+
 input {
     height: 35px;
     width: 150px;
     border: 1px solid #000;
     margin-top: 10px;
+    position: relative;
     
 }
 
@@ -113,7 +118,7 @@ form {
 }
 
 .label {
-    width: 60
+    width: 60;
 }
 
 .aligned-multi-state {
