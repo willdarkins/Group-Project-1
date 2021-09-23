@@ -112,9 +112,12 @@ form {
     left: 0;
     bottom: 0;
     right: 0;
-    text-align: fixed;
     line-height: 1.7;
     padding: .10em .05em .02em .05em;
+}
+
+submit {
+    padding: 0, 4em, 0, 6em;
 }
 
 .footer {
