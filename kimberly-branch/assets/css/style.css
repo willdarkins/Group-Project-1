@@ -74,22 +74,28 @@ body {
     border-radius: 10px;
     border: solid;
     border-color: brown;
+    padding: 2;
 }
 
 .fieldset {
     display: inline-block;
-    text-align: left;
- 
 }
 
-.pure-button-primary {
-    border-radius: 2px;
+label {
+    height: 20px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: right;
+    margin-right:15px;
+    float: left;
 }
-
-#submit {
-    background-color: olive;
-    color: yellow;
-    margin-left: 10em;
+input {
+    height: 35px;
+    width: 150px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    
 }
 
 form {
@@ -101,9 +107,28 @@ form {
     left: 0;
     bottom: 0;
     right: 0;
-    text-align: left;
+    text-align: fixed;
     line-height: 1.7;
-    padding: .03em .05em .02em .05em;
+    padding: .10em .05em .02em .05em;
+}
+
+.label {
+    width: 60
+}
+
+.aligned-multi-state {
+    margin: auto;
+    position: left;
+}
+
+#aligned-multi-state {
+   position: left; 
+}
+
+.pure-button {
+    border-radius: 2px;
+    background: rgb(223, 117, 20);
+    margin:auto;
 }
 
 .footer {
@@ -119,22 +144,5 @@ form {
     color: yellow;
     text-align: left;
     padding-left: 3%;
-    padding-right: 30%;
-}
-
-.results-button {
-    display: inline-block;
-}
-
-#results {
-    font-size: 100%;
-    position: fixed; 
-    bottom: 3%;
-    margin-left: 80%;
-    line-height: normal;
-    padding: 10px 65px;
-    background-color: tomato;
-    color: rgb(48, 58, 22);
-    font-size: large;
-    margin-top: 25%;
+    padding-right: 3%;
 }

@@ -33,12 +33,15 @@
         </div>
     </header>
 
-    <form class="pure-form pure-form-aligned">
-        <fieldset class="fieldset">
-            <div class="pure-g">
+    <!--<form class="pure-form pure-form-aligned">-->
+        <form class="pure-form pure-form-stacked" method="submit"  
+        target="./Group-Project-1/kimberly-branch/event-covid.html" 
+        onsubmit="page2">
+        <fieldset cass="fieldset">
+            <div class="pure-g-aligned">
                 <div class="pure-u-1 pure-u-md-1-3">
-                    <label for="aligned-email">E-Mail</label>
-                    <input type="email" id="aligned-email" class="pure-u-23-24" required="" />
+                    <label for="email">E-Mail</label>
+                    <input type="email" id="email" class="pure-u-23-24" required="" />
                 </div>
             </div>
             <div class="pure-u-1 pure-u-md-1-3">
@@ -102,10 +105,9 @@
                     <option value="WV">WV</option>
                     <option value="WY">WY</option>
                 </select>
-            </div>
-            <p>
-                <button type="submit" class="pure-button pure-button-primary" id="submit">Get Started</button>
-            </p>
+               <div class="pure-button-group" role="group" aria-label="...">
+                 <button type="submit" class="button-xsmall pure-button">Submit</button>
+        </form>
         </fieldset>
     </form>
 
@@ -117,10 +119,7 @@
                 DISCLAIMER: You cannnot completely protect yourself from COVID-19. As an adult, you have your own
                 responsibilty to
                 stay informed, get the vaccines, and wear a mask whenever you are out in public. </p>
-            <form action="event-covid.html">
-                <input type="submit" />
-            </form>
-        </div>
+             </div>
 
     </footer>
     <!-- <script src="./assets/js/script.js" ></script> -->

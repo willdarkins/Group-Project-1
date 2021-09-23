@@ -15,73 +15,24 @@ body {
   line-height: 1.7em;
   color: brown;
 }
-.splash-container {
-  z-index: -100;
-  overflow: hidden;
-  width: 100%;
-  height: 88%;
-  top:  0;
-  left: 0;
-  position: fixed !important;
-}
 
-.splash {
-  width: 80%;
-  height: 50%;
+table {
+  width: 75%;
+  column-width: 25%;
+  height: inherit;
   margin: auto;
-  position: absolute;
-  text-align: center; 
+  border-style: solid;
 }
 
-.splash-head {
-  font-size: 2.5em;
-  color: darkolivegreen;
-}
-
-#myVideo { 
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
-
-.viewpoint-header {
-  display: block;
-  position: relative;
-  background-color: orange;
-  color: brown;
-}
-
-.pure-menu-horizontal {
-  background-color: orangered;
+caption {
+  padding-top: 18%;
   color: yellow;
-  position: fixed;
-  bottom: 0;
-  height: 15%;
-  width: 100%;
 }
 
-.splash-head {
-  text-align: center;
+th {
+  background-color: salmon;
 }
 
-.splash-subhead {
-  text-align: center;
+tr {
+  height: 30px;
 }
-
-.grids-example {
-  border-top: 0;
-  padding-top: 20%;
-  background: rgb(250, 250, 250);
-  margin: auto;            
-  font-family: Consolas, 'Liberation Mono', Courier, monospace;
-				
-}	
-
-.graybox {
-  background: rgb(240, 240, 240);
-  border: 1px solid #ddd;			
-}	
-
-
