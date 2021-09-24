@@ -1,0 +1,143 @@
+/* element.style {
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+} 
+
+body {
+    line-height: 1.7em;
+    color: brown;
+}
+.splash-container {
+    z-index: -100;
+    overflow: hidden;
+    width: 100%;
+    height: 88%;
+    top:  0;
+    left: 0;
+    position: fixed !important;
+}
+
+.total-state-cases{
+    font-weight: bold;
+}
+
+.splash {
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    text-align: center; 
+}
+
+.splash-head {
+    font-size: 2.5em;
+    color: darkolivegreen;
+}
+
+#myVideo { 
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.viewpoint-header {
+    display: block;
+    position: relative;
+    background-color: orange;
+    color: brown;
+}
+
+.pure-menu-horizontal {
+    background-color: orangered;
+    color: yellow;
+    position: fixed;
+    bottom: 0;
+    height: 15%;
+    width: 100%;
+}
+
+.splash-head {
+    text-align: center;
+}
+
+.splash-subhead {
+    text-align: center;
+}
+
+.pure-form {
+    border-radius: 2px;
+    border: solid;
+    border-color: brown;
+}
+
+.fieldset {
+    display: inline-block;
+    text-align: left;
+ 
+}
+
+.pure-button-primary {
+    border-radius: 2px;
+}
+
+#submit {
+    background-color: olive;
+    color: yellow;
+    margin-left: 10em;
+}
+
+form {
+    width: 40%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: left;
+    line-height: 1.7;
+    padding: .03em .05em .02em .05em;
+}
+
+.footer {
+    background-color: brown;
+    position: fixed; 
+    bottom: 0;
+    height: 15%;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.footer-text {
+    color: yellow;
+    text-align: left;
+    padding-left: 3%;
+    padding-right: 30%;
+}
+
+.results-button {
+    display: inline-block;
+}
+
+#results {
+    font-size: 100%;
+    position: fixed; 
+    bottom: 3%;
+    margin-left: 80%;
+    line-height: normal;
+    padding: 10px 65px;
+    background-color: tomato;
+    color: rgb(48, 58, 22);
+    font-size: large;
+    margin-top: 25%;
+}
