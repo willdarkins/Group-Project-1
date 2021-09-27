@@ -16,4 +16,4 @@
 
 - Another goal is to set up some sort of email submission so that the user could have the results sent to them.
 
-![Alt text](/assets/images/Screenshot.pngraw=true "Screenshot")
+![Alt text](/assets/images/Screenshot.PNG?raw=true "Screenshot")
